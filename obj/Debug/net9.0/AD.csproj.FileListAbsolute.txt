@@ -1,0 +1,5 @@
+C:\Users\koira\OneDrive - London Metropolitan University\AD\obj\Debug\net9.0\AD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koira\OneDrive - London Metropolitan University\AD\obj\Debug\net9.0\AD.AssemblyInfoInputs.cache
+C:\Users\koira\OneDrive - London Metropolitan University\AD\obj\Debug\net9.0\AD.AssemblyInfo.cs
+C:\Users\koira\OneDrive - London Metropolitan University\AD\obj\Debug\net9.0\AD.csproj.CoreCompileInputs.cache
+C:\Users\koira\OneDrive - London Metropolitan University\AD\obj\Debug\net9.0\AD.sourcelink.json
