@@ -1,0 +1,38 @@
+@page "/profile"
+
+<h2>Student Profile</h2>
+
+<div class="profile-card">
+    <img src="@photoPath" class="profile-photo" />
+
+    <div>
+        <h3>@studentName</h3>
+        <p><b>Course:</b> @courseName</p>
+        <p><b>Batch:</b> @batchYear</p>
+    </div>
+</div>
+
+@code {
+    private string photoPath = "https://i.ibb.co/8zh9TkC/student.jpg";
+    private string studentName = "Student Name";
+    private string courseName = ".NET MAUI Blazor Hybrid";
+    private string batchYear = "2025";
+}
+
+<style>
+    .profile-card {
+        display: flex;
+        gap: 1rem;
+        max-width: 600px;
+        margin: 1rem auto;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+</style>
